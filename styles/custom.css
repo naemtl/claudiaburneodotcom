@@ -1,3 +1,8 @@
 body {
 	font-family: 'Work Sans', sans-serif;
+	background: linear-gradient(#ffffff, #DCDCDC);
+}
+
+.navbar, .button {
+	background-color: transparent;
 }
