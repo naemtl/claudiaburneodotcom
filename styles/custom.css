@@ -22,3 +22,9 @@ body {
 	-webkit-box-shadow: none; 
     box-shadow: none; 
 }
+
+.navbar-link::after {
+    border: 1px solid #363636;
+    border-right: 0;
+    border-top: 0;
+}
