@@ -6,3 +6,19 @@ body {
 .navbar, .button {
 	background-color: transparent;
 }
+
+.button {
+	border: 1px transparent;
+	border-color: transparent;
+	outline: 0;
+}
+
+/*.button:focus {
+
+}*/
+
+.navbar-menu {
+	background-color: transparent;
+	-webkit-box-shadow: none; 
+    box-shadow: none; 
+}
