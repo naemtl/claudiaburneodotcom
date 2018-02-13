@@ -1,6 +1,10 @@
 body {
 	font-family: 'Work Sans', sans-serif;
 	/*background: linear-gradient(#ffffff, #DCDCDC);*/
+	/*background: url(../images/marble1.jpg) no-repeat;
+	padding-top: 100px;
+	background-size: cover;*/
+	background-color: rgb(232,232,232);
 }
 
 .navbar, .button {
