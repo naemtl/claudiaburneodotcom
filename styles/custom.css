@@ -8,7 +8,11 @@ body {
 }
 
 .navbar, .button {
-	background-color: transparent;
+
+}
+
+.navbar-light .navbar-toggler {
+	border-color: transparent;
 }
 
 .button {
@@ -31,4 +35,8 @@ body {
     border: 1px solid #363636;
     border-right: 0;
     border-top: 0;
+}
+
+#resume-body{
+	padding-top: 50px;
 }
