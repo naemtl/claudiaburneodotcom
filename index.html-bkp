@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Claudia Burnneo's Portfolio</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/custom.css">
+	<link rel="stylesheet" type="text/css" href="styles/lightbox.css">
+	<link href="https://fonts.googleapis.com/css?family=Work+Sans" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/lightbox.js"></script>
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light">
+		<a class="navbar-brand" href="#"><h1 class="title">Claudia Burneo</h1></a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarNav">
+			<div class="navbar-nav">
+				<a class="nav-item nav-link">Works</a>
+				<a class="nav-item nav-link">Resume</a>
+				<a class="nav-item nav-link">Contact</a>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+		<ul class="list-unstyled">
+			<li><a href="images/meeting/meetingmain.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meetingmain.jpg"></a></li>
+			<li>
+				<ul class="list-unstyled gallery">	
+					<li><a href="images/meeting/meeting1.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting1.jpg"></a></li>
+					<li><a href="images/meeting/meeting2.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting2.jpg"></a></li>
+					<li><a href="images/meeting/meeting3.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting3.jpg"></a></li>
+					<li><a href="images/meeting/meeting4.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting4.jpg"></a></li>
+					<li><a href="images/meeting/meeting5.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting5.jpg"></a></li>
+					<li><a href="images/meeting/meeting6.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting6.jpg"></a></li>
+					<li><a href="images/meeting/meeting7.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting7.jpg"></a></li>
+					<li><a href="images/meeting/meeting8.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting8.jpg"></a></li>
+					<li><a href="images/meeting/meeting9.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting9.jpg"></a></li>
+					<li><a href="images/meeting/meeting10.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting10.jpg"></a></li>
+					<li><a href="images/meeting/meeting11.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting11.jpg"></a></li>
+					<li><a href="images/meeting/meeting12.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting12.jpg"></a></li>
+					<li><a href="images/meeting/meeting13.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting13.jpg"></a></li>
+					<li><a href="images/meeting/meeting14.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting14.jpg"></a></li>
+					<li><a href="images/meeting/meeting15.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting15.jpg"></a></li>
+					<li><a href="images/meeting/meeting16.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting16.jpg"></a></li>
+					<li><a href="images/meeting/meeting17.jpg" data-lightbox="meeting-slide"><img src="images/meeting/meeting17.jpg"></a></li>
+			    </ul>
+			</li>
+		</ul>
+	</div>
+
+	<footer class="footer">
+		<div class="container">
+		    <p>Copyright &copy; 2018, All Rights Reserved</p>
+		</div>
+	</footer>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
