@@ -1,14 +1,10 @@
 body {
 	font-family: 'Work Sans', sans-serif;
-	/*background: linear-gradient(#ffffff, #DCDCDC);*/
-	/*background: url(../images/marble1.jpg) no-repeat;
+	/*background: linear-gradient(#ffffff, #DCDCDC);
+	/*
 	padding-top: 100px;
 	background-size: cover;*/
 	background-color: rgb(232,232,232);
-}
-
-.navbar, .button {
-
 }
 
 .navbar-light .navbar-toggler {
@@ -21,9 +17,9 @@ body {
 	outline: 0;
 }
 
-/*.button:focus {
-
-}*/
+.navbar {
+	margin: 80px 0;
+}
 
 .navbar-menu {
 	background-color: transparent;
@@ -35,6 +31,16 @@ body {
     border: 1px solid #363636;
     border-right: 0;
     border-top: 0;
+}
+
+@media (min-width: 768px) {
+.navbar-brand.abs
+    {
+        position: absolute;
+        width: 100%;
+        left: 0;
+        text-align: center;
+    }
 }
 
 .footer {
@@ -55,26 +61,3 @@ body {
 .col-sm img, .col-sm-3 img {
 	margin-top: 8px;
 }
-
-/*.gallery {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-}
-
-.gallery li {
-	display: block;
-	float: left;
-	width: 23%;
-	cursor: pointer;
-	border-radius: 5px;
-	box-sizing: border-box;
-	margin: 0 12px 7px 0;
-	position: relative;
-}
-
-.gallery img {
-	width: 100%;
-	border-radius: 5px;
-}
-*/
