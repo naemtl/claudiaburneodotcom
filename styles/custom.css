@@ -63,7 +63,7 @@ hr {
 .work-title {
     padding-top: 20px;
     padding-bottom: 10px;
-    text-decoration-line: underline;
+    text-align: center;
 }
 
 #contact{
@@ -71,7 +71,7 @@ hr {
 }
 
 #meeting-title {
-    text-decoration-line: underline;
+    text-align: center;
 }
 
 #resume-body {
