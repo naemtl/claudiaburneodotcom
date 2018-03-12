@@ -66,6 +66,19 @@ hr {
     text-align: center;
 }
 
+.works-nav {
+  color: rgba(0,0,0,0.5)
+}
+
+.works-nav:hover {
+  color: rgba(0,0,0,0.7)
+}
+
+.works-nav-container {
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
 #contact{
 	padding: 75px 0 75px 0;
 }
