@@ -3,10 +3,20 @@ body {
 	background-color: rgb(232,232,232);
 }
 
-hr {
-	border-top: 1px solid rgba(0,0,0,.3);
+header {
+  padding: 50px 0;
 }
 
+hr {
+	border-top: 1px solid rgba(0,0,0,.3);
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+}
+
+
+.bottom-line {
+  margin-top: 50px;
+}
 
 .button {
 	border: 1px transparent;
@@ -75,8 +85,8 @@ hr {
 }
 
 .works-nav-container {
-    padding-top: 10px;
-    padding-bottom: 20px;
+    padding-top: 15px;
+    padding-bottom: 30px;
 }
 
 #contact{

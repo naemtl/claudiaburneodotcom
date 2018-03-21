@@ -12,31 +12,36 @@
 	<script defer src="https://use.fontawesome.com/releases/v5.0.0/js/all.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 	<script src="js/lightbox.js"></script>
+	<script src="js/script.js"></script>
 	<!-- Developed by Matthew Stinis in 2018 -->
 </head>
 <body>
 	<header>
 		<img class="img-fluid mx-auto d-block" src="images/title-black.png">
 	</header>
-	<nav class="navbar navbar-expand-lg navbar-light">
-		<div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
-			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse text-center" id="navbarNav">
-				<div class="navbar-nav">
-					<a class="nav-item nav-link" href="index.html">Works</a>
-					<a class="nav-item nav-link" href="about.html">About</a>
-					<a class="nav-item nav-link" href="contact.html">Contact</a>
+	<div class="container">
+
+		<hr>
+		
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="mx-auto d-sm-flex d-block flex-sm-nowrap">
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse text-center" id="navbarNav">
+					<div class="navbar-nav">
+						<a class="nav-item nav-link" href="index.html">Works</a>
+						<a class="nav-item nav-link" href="about.html">About</a>
+						<a class="nav-item nav-link" href="contact.html">Contact</a>
+					</div>
 				</div>
 			</div>
-		</div>
-	</nav>
-	<div class="container">
+		</nav>
+
 		<hr>
 
 		<ul class="nav justify-content-center works-nav-container">
-			<li class="nav-item">
+			<li class="nav-item current">
 				<a class="nav-link works-nav" href="#">Meeting</a>
 			</li>
 			<li class="nav-item">
@@ -60,65 +65,65 @@
 
 		<div class="row">
 			<div class="col-sm">
-				<p class="h1" id="meeting-title">-Meeting-</p>
+				<p class="h1" id="meeting-title"></p>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-sm">
+		<div class="gallery row">
+			<div class="meeting col-sm">
 				<a href="images/meeting/meetingmain.jpg" data-lightbox="meeting-slide">
 					<img class="rounded img-fluid" src="images/meeting/meetingmain.jpg">
 				</a>
 			</div>
 		</div>
-		<div class="row">	
-			<div class="col-sm"><a href="images/meeting/meeting1.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting1.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting2.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting2.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting3.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting3.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting4.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting4.jpg"></a></div>
+		<div class="gallery row">	
+			<div class="meeting col-sm"><a href="images/meeting/meeting1.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting1.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting2.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting2.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting3.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting3.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting4.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting4.jpg"></a></div>
 		</div>
-		<div class="row">
-			<div class="col-sm"><a href="images/meeting/meeting5.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting5.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting6.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting6.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting7.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting7.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting8.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting8.jpg"></a></div>
+		<div class="gallery row">
+			<div class="meeting col-sm"><a href="images/meeting/meeting5.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting5.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting6.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting6.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting7.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting7.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting8.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting8.jpg"></a></div>
 		</div>
-		<div class="row">			
-			<div class="col-sm"><a href="images/meeting/meeting9.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting9.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting10.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting10.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting11.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting11.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting12.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting12.jpg"></a></div>
+		<div class="gallery row">			
+			<div class="meeting col-sm"><a href="images/meeting/meeting9.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting9.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting10.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting10.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting11.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting11.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting12.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting12.jpg"></a></div>
 		</div>
-		<div class="row">			
-			<div class="col-sm"><a href="images/meeting/meeting13.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting13.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting14.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting14.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting15.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting15.jpg"></a></div>
-			<div class="col-sm"><a href="images/meeting/meeting16.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting16.jpg"></a></div>
+		<div class="gallery row">			
+			<div class="meeting col-sm"><a href="images/meeting/meeting13.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting13.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting14.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting14.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting15.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting15.jpg"></a></div>
+			<div class="meeting col-sm"><a href="images/meeting/meeting16.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting16.jpg"></a></div>
 		</div>
-		<div class="row">	
-			<div class="col-sm-3"><a href="images/meeting/meeting17.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting17.jpg"></a>
+		<div class="gallery row">	
+			<div class="meeting col-sm-3"><a href="images/meeting/meeting17.jpg" data-lightbox="meeting-slide"><img class="rounded img-fluid" src="images/meeting/meeting17.jpg"></a>
 			</div>
 		</div>
 
 		<!-- Jello -->
 
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm">	
 				<p class="h1 work-title">-Jello Visitor-</p>
 			</div>
-		</div>
-		<div class="row">
+		</div> -->
+		<div class="gallery row">
 			<div class="col-sm-4 offset-sm-4">
 				<a href="images/jellovisitor/jellovisitormain.jpg" data-lightbox="jello-slide">
 					<img class="rounded img-fluid" src="images/jellovisitor/jellovisitormain.jpg">
 				</a>
 			</div>
 		</div>
-		<div class="row">	
+		<div class="gallery row">	
 			<div class="col-sm"><a href="images/jellovisitor/jellovisitor1.jpg" data-lightbox="jello-slide"><img class="rounded img-fluid" src="images/jellovisitor/jellovisitor1.jpg"></a></div>
 			<div class="col-sm"><a href="images/jellovisitor/jellovisitor2.jpg" data-lightbox="jello-slide"><img class="rounded img-fluid" src="images/jellovisitor/jellovisitor2.jpg"></a></div>
 			<div class="col-sm"><a href="images/jellovisitor/jellovisitor3.jpg" data-lightbox="jello-slide"><img class="rounded img-fluid" src="images/jellovisitor/jellovisitor3.jpg"></a></div>
 		</div>
-		<div class="row">
+		<div class="gallery row">
 			<div class="col-sm"><a href="images/jellovisitor/jellovisitor4.jpg" data-lightbox="jello-slide"><img class="rounded img-fluid" src="images/jellovisitor/jellovisitor4.jpg"></a></div>
 			<div class="col-sm"><a href="images/jellovisitor/jellovisitor5.jpg" data-lightbox="jello-slide"><img class="rounded img-fluid" src="images/jellovisitor/jellovisitor5.jpg"></a></div>
 			<div class="col-sm"><a href="images/jellovisitor/jellovisitor6.jpg" data-lightbox="jello-slide"><img class="rounded img-fluid" src="images/jellovisitor/jellovisitor6.jpg"></a></div>
@@ -126,12 +131,12 @@
 
 		<!-- Figa -->
 
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm">	
 				<p class="h1 work-title">-Figa-</p>
 			</div>
-		</div>
-		<div class="row">
+		</div> -->
+		<div class="gallery row">
 			<div class="col-sm-4 offset-sm-4">
 				<a href="images/figa/figa.jpg" data-lightbox="figa-slide">
 					<img class="rounded img-fluid" src="images/figa/figa.jpg">
@@ -141,29 +146,29 @@
 
 		<!-- Limpia de Agua -->
 
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm">	
 				<p class="h1 work-title">-Limpia de Agua-</p>
 			</div>
-		</div>
-		<div class="row">
+		</div> -->
+		<div class="gallery row">
 			<div class="col-sm-4 offset-sm-4">
 				<a href="images/limpiadeagua/limpiadeaguamain.jpg" data-lightbox="limpia-slide">
 					<img class="rounded img-fluid" src="images/limpiadeagua/limpiadeaguamain.jpg">
 				</a>
 			</div>
 		</div>
-		<div class="row">	
+		<div class="gallery row">	
 			<div class="col-sm"><a href="images/limpiadeagua/limpiadeagua1.jpg" data-lightbox="limpia-slide"><img class="rounded img-fluid" src="images/limpiadeagua/limpiadeagua1.jpg"></a></div>
 			<div class="col-sm"><a href="images/limpiadeagua/limpiadeagua2.jpg" data-lightbox="limpia-slide"><img class="rounded img-fluid" src="images/limpiadeagua/limpiadeagua2.jpg"></a></div>
 			<div class="col-sm"><a href="images/limpiadeagua/limpiadeagua3.jpg" data-lightbox="limpia-slide"><img class="rounded img-fluid" src="images/limpiadeagua/limpiadeagua3.jpg"></a></div>
 		</div>
-		<div class="row">
+		<div class="gallery row">
 			<div class="col-sm"><a href="images/limpiadeagua/limpiadeagua4.jpg" data-lightbox="limpia-slide"><img class="rounded img-fluid" src="images/limpiadeagua/limpiadeagua4.jpg"></a></div>
 			<div class="col-sm"><a href="images/limpiadeagua/limpiadeagua5.jpg" data-lightbox="limpia-slide"><img class="rounded img-fluid" src="images/limpiadeagua/limpiadeagua5.jpg"></a></div>
 			<div class="col-sm"><a href="images/limpiadeagua/limpiadeagua6.jpg" data-lightbox="limpia-slide"><img class="rounded img-fluid" src="images/limpiadeagua/limpiadeagua6.jpg"></a></div>
 		</div>
-		<div class="row">
+		<div class="gallery row">
 			<div class="col-sm"><a href="images/limpiadeagua/limpiadeagua7.jpg" data-lightbox="limpia-slide"><img class="rounded img-fluid" src="images/limpiadeagua/limpiadeagua7.jpg"></a></div>
 			<div class="col-sm"><a href="images/limpiadeagua/limpiadeagua8.jpg" data-lightbox="limpia-slide"><img class="rounded img-fluid" src="images/limpiadeagua/limpiadeagua8.jpg"></a></div>
 			<div class="col-sm"><a href="images/limpiadeagua/limpiadeagua9.jpg" data-lightbox="limpia-slide"><img class="rounded img-fluid" src="images/limpiadeagua/limpiadeagua9.jpg"></a></div>
@@ -171,19 +176,19 @@
 
 		<!-- Fortune Mural -->
 
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm">	
 				<p class="h1 work-title">-Fortune Mural-</p>
 			</div>
-		</div>
-		<div class="row">
+		</div> -->
+		<div class="gallery row">
 			<div class="col-sm">
 				<a href="images/fortunemural/fortunemain.jpg" data-lightbox="fortune-slide">
 					<img class="rounded img-fluid" src="images/fortunemural/fortunemain.jpg">
 				</a>
 			</div>
 		</div>
-		<div class="row">	
+		<div class="gallery row">	
 			<div class="col-sm"><a href="images/fortunemural/fortune1.jpg" data-lightbox="fortune-slide"><img class="rounded img-fluid" src="images/fortunemural/fortune1.jpg"></a></div>
 			<div class="col-sm"><a href="images/fortunemural/fortune2.jpg" data-lightbox="fortune-slide"><img class="rounded img-fluid" src="images/fortunemural/fortune2.jpg"></a></div>
 			<div class="col-sm"><a href="images/fortunemural/fortune3.jpg" data-lightbox="fortune-slide"><img class="rounded img-fluid" src="images/fortunemural/fortune3.jpg"></a></div>
@@ -191,34 +196,34 @@
 
 		<!-- The Stone of Transformation -->
 
-		<div class="row">
+		<!-- <div class="row">
 			<div class="col-sm">	
 				<p class="h1 work-title">-The Stone of Transformation-</p>
 			</div>
-		</div>
-		<div class="row">
+		</div> -->
+		<div class="gallery row">
 			<div class="col-sm-4 offset-sm-4">
 				<a href="images/stoneoftransformation/stonemain.jpg" data-lightbox="stone-slide">
 					<img class="rounded img-fluid" src="images/stoneoftransformation/stonemain.jpg">
 				</a>
 			</div>
 		</div>
-		<div class="row">	
+		<div class="gallery row">	
 			<div class="col-sm"><a href="images/stoneoftransformation/stone1.jpg" data-lightbox="stone-slide"><img class="rounded img-fluid" src="images/stoneoftransformation/stone1.jpg"></a></div>
 			<div class="col-sm"><a href="images/stoneoftransformation/stone2.jpg" data-lightbox="stone-slide"><img class="rounded img-fluid" src="images/stoneoftransformation/stone2.jpg"></a></div>
 			<div class="col-sm"><a href="images/stoneoftransformation/stone3.jpg" data-lightbox="stone-slide"><img class="rounded img-fluid" src="images/stoneoftransformation/stone3.jpg"></a></div>
 		</div>
-		<div class="row">
+		<div class="gallery row">
 			<div class="col-sm-4"><a href="images/stoneoftransformation/stone4.jpg" data-lightbox="stone-slide"><img class="rounded img-fluid" src="images/stoneoftransformation/stone4.jpg"></a></div>
 			<div class="col-sm-4"><a href="images/stoneoftransformation/stone5.jpg" data-lightbox="stone-slide"><img class="rounded img-fluid" src="images/stoneoftransformation/stone5.jpg"></a></div>
 			<div class="col-sm-4"><a href="images/stoneoftransformation/stone6.jpg" data-lightbox="stone-slide"><img class="rounded img-fluid" src="images/stoneoftransformation/stone6.jpg"></a></div>
 		</div>
-		<div class="row">
+		<div class="gallery row">
 			<div class="col-sm-4"><a href="images/stoneoftransformation/stone7.jpg" data-lightbox="stone-slide"><img class="rounded img-fluid" src="images/stoneoftransformation/stone7.jpg"></a>
 			</div>
 		</div>
 
-		<hr>
+		<hr class="bottom-line">
 	</div>
 	<footer class="footer"> 
 		<div class="container">
