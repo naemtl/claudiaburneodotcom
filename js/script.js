@@ -1,4 +1,4 @@
-$(document).ready(function() {
+$(function() {
 	$('ul.nav a').on('click', function() {
 		// current class assignment 
 		$('ul.nav li.current').removeClass('current');
@@ -8,14 +8,14 @@ $(document).ready(function() {
 		$('p.h1').text($(this).text());
 
 		// get and filter link text
-		var category = $(this).text().toLowerCase().replace(' ', '-');
+		var category = $(this).text().toLowerCase().replace(/\s/g, '-');
 
 		// show based on category
-		$('div.gallery div').each(function() {
+		$('.gallery-section').each(function() {
 			if (!$(this).hasClass(category)) {
-				$(this).hide().addClass('hidden');
+				$(this).addClass('hidden');
 			} else {
-				$(this).fadeIn('slow').removeClass('hidden');
+				$(this).removeClass('hidden');
 			}
 		});
 

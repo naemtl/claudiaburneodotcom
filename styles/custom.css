@@ -50,6 +50,10 @@ hr {
     padding-top: 10px;
 }
 
+.hidden {
+  display: none;
+}
+
 .navbar-light .navbar-toggler {
 	border-color: transparent;
 }
